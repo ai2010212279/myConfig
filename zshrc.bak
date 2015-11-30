@@ -124,5 +124,5 @@ alias vim=/usr/local/Cellar/vim/7.4.865/bin/vim
 alias vi=/usr/local/Cellar/vim/7.4.865/bin/vim
 
 #jenv config
+export PATH=$HOME/.jenv/bin:$PATH
 if which jenv > /dev/null; then eval "$(jenv init -)"; fi
-export JENV_ROOT=/usr/local/opt/jenv
